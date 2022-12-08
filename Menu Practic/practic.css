@@ -1,0 +1,289 @@
+#menu1{
+	font-family: arial;
+	font-size: 10pt;
+	list-style-type: inside;
+	color: blue;
+	margin-left: 11px;
+	}
+
+#menu1 a:link, #menu1 a:visited{
+	color: blue;
+	text-decoration: none;
+}
+#menu1 a:hover{
+color: red;
+text-decoration: underline;
+}
+#menu1 li{
+	margin-bottom: 2px;
+}
+#menu2{
+	font-family: arial;
+	font-size: 10pt;
+	color: blue;
+	width: 250px;
+	margin-top: 30px;
+	}
+#menu2 a:link, #menu2 a:visited{
+	color: blue;
+	text-decoration: none;	
+}
+#menu2 a:hover{
+color: blue;
+font-size: 12pt;
+text-decoration: none;
+}
+#menu2 li{
+	border: 1px solid blue;
+	font-size: 10pt;
+	line-height: 30px;
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+#menu2 a{
+	display:block;
+	padding-left: 5px;
+}
+#menu3{
+	font-family: arial;
+	font-size: 10pt;
+	color: #353535;
+	width: 250px;
+	margin-top: 30px;
+	font-weight: bolder;
+	}
+#menu3 a:link, #menu3 a:visited{
+	color: white;
+	background-color:#353535;
+	text-decoration: none;	
+}
+#menu3 a:hover{
+color: #353535;
+text-decoration: none;
+background-color: white;
+}
+#menu3 li{
+	border: 1px solid #353535;
+	font-size: 10pt;
+	line-height: 30px;
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+#menu3 a{
+	display:block;
+	padding-left: 5px;
+}
+#menu4{
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bolder;
+	width: 250px;
+	margin-top: 30px;
+	}
+#menu4 a:link, #menu4 a:visited{
+	color: white;
+	background-color:#0081E7;
+	text-decoration: none;	
+}
+#menu4 a:hover, #menu4 a.active{
+color: blue;
+text-decoration: none;
+background: white url("png/air.png") 95% center no-repeat;
+}
+#menu4 li{
+	border: 1px solid #0081E7;
+	font-size: 10pt;
+	line-height: 30px;
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+#menu4 a{
+	display:block;
+	padding-left: 5px;
+}
+#menu5{
+	font-family: arial;
+	font-size: 10pt;
+	color: blue;
+	margin-top: 30px;
+	}
+
+#menu5 a:link, #menu5 a:visited{
+	color: blue;
+	text-decoration: none;
+}
+#menu5 a:hover{
+color: red;
+text-decoration: none;
+}
+#menu5 li{
+	display: inline-block;
+	border: 1px solid blue;
+	padding:5px;
+}
+#menu6{
+	font-family: arial;
+	font-size: 10pt;
+    margin-top: 30px;
+    color: blue;
+	}
+
+#menu6 a:link, #menu6 a:visited{
+	color: blue;
+	border: 1px solid blue;
+    text-decoration: none;
+}
+#menu6 a:hover, #menu6 a.active{
+color: white;
+background-color: #484848;
+text-decoration: none;
+border: 1px solid black;
+}
+#menu6 li{
+	float: left;
+	list-style-type: none;
+	margin-right: 4px;
+}
+#menu6 a{
+	padding:5px;
+	display:block;
+}
+.clearfix{
+	clear:both;
+}
+#menu7{
+	font-size:12pt;
+	font-weight: bolder;
+	margin-top:60px;
+	display: block;
+}
+#menu7 a:link, #menu7 a:visited{
+	color: #CBCBCB;
+	text-decoration: none;
+}
+#menu7 a:hover{
+color: #0081E7;
+text-decoration: none;
+}
+#menu7 li{
+	display: inline-block;
+	}
+#menu7 a{
+ display:block;
+ padding-top: 40px;
+ margin-right: 10px;
+ text-align: center ;
+}
+#l1{
+	background: url("png/boeinggray.png") top center no-repeat;
+	
+	}
+#l1:hover{
+	background: url("png/boeingblue.png") top center no-repeat;
+}
+#l2{
+	background: url("png/chartergray.png") top center no-repeat;
+}
+#l2:hover{
+	background: url("png/charterblue.png") top center no-repeat;
+}
+#l3{
+	background: url("png/traingray.png") bottom 70% center no-repeat;
+}
+#l3:hover{
+	background: url("png/trainblue.png") bottom 70% center no-repeat;
+}
+#l4{
+	background: url("png/hotelgray.png") top center no-repeat;
+}
+#l4:hover{
+	background: url("png/hotelblue.png") top center no-repeat;
+}
+#l5{
+	background: url("png/tourismgray.png") top center no-repeat;
+}
+#l5:hover{
+	background: url("png/tourismblue.png") top center no-repeat;
+}
+#menu8 {
+	font-family: arial;
+	margin-top: 30px;
+	margin-bottom:40px;
+	background-color: #FC9D00;
+}
+#menu8 li{
+	display: inline-block;
+	padding: 0px 4px;
+}
+#menu8 a{
+ width:100%;
+ display:block;
+ text-decoration: none;
+ color: white;
+ font-size:14px;
+ line-height: 35px;
+ text-align: center;
+
+}
+#menu8 a:link, #menu8 a:visited{
+	padding: 0px 4px;
+}
+#menu8 a:hover{
+	background-color:#E93301;
+	padding: 0px 4px;
+}
+#menu9{
+ font-family: arial;
+ font-size: 13px;
+ text-align: center;
+ margin-left: 40px;
+ margin-bottom: 40px;
+ text-decoration: none;
+ width:150px;
+}
+#menu9 table{
+	width:100%; height: 100%;
+}
+#menu9 th{
+	border-bottom: 1px solid black; 
+}
+td .all:link, td .all:visited{
+	color: #506361;
+	text-decoration: none;	
+}
+td .all:hover{
+	color: #506361;
+	text-decoration: underline;
+}
+th .all:link, th .all:visited{
+	color: #506361;
+	text-decoration: none;	
+}
+th .all:hover{
+	color: #506361;
+	text-decoration: underline;
+}
+th .holiday:link, th .holiday:visited{
+	color: #95A2C1;
+	text-decoration: none;	
+}
+th .holiday:hover{
+	text-decoration: underline;
+}
+td .holiday:link, td .holiday:visited{
+	color: #95A2C1;
+	text-decoration: none;	
+}
+td .holiday:hover{
+	text-decoration: underline;
+}
+a.active{
+	color: red;
+	font-weight: bolder;
+	text-decoration: none;	
+}
+a.active:hover{
+	color: red;
+	font-weight: bolder;
+	text-decoration: underline;
+}
